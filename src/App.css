@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    background-color: #f0f0f0; 
+  }
+  .appContainer {
+    padding: 10px; 
+    text-align: center;
+   
+  }
+
+  img {
+    max-width: 100%; 
+  }
+
+  .cursive {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    text-align: center;
+
+  }
+  .magicFortune {
+    text-align: center;
+    font-family: ui-monospace;
+    font-size: 15px;
+    padding-bottom: 90px;
+  }
+  .lampGenie {
+    background-repeat: no-repeat; 
+  }
+  /* .welcome {
+    text-align: center;
+    margin-top: 160px; 
+    font-weight: bold;
+    font-size: 28px;
+  } */
+  .appContainerText {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'ui-monospace', cursive;
+  }
+  .discoverButton {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px 115px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'ui-monospace', cursive;
+  }
+  
+  .discoverButton:hover {
+    background-color: #ff9800;
+    color: #fff; 
+  }
+  .discoverContainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+  .discoverHeader {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 180px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+
+  .dailyHoroscope {
+    min-height: 100px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    overflow-y: auto; 
+    background-image: url('./assets/img/space.svg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.dailyHoroscope h2 {
+  color:antiquewhite;
+  position: absolute;
+  top: 145px;
+}
+.fortunes {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; 
+}
+.fortuneItem {
+  margin: 8px;
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  height: 170px;
+  background-image: url('./assets/img/coffeeCup.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out; /* Dönüş efekti için geçiş efekti ekleyin */
+}
+
+.fortuneItem1,
+.fortuneItem2,
+.fortuneItem3,
+.fortuneItem4 {
+  border-radius: 20px;
+  margin: 8px;
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: 6px solid #ddd;
+  height: 170px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  
+}
+.fortuneGroup {
+  flex: 1;
+}
+
+.fortuneItem1 {
+  background-image: url('./assets/img/PausaCaffe.svg'); 
+}
+.fortuneItem2 {
+  background-image: url('./assets/img/misc-upgrade-card-reshuffle.svg'); 
+}
+.fortuneItem3 {
+  background-image: url('./assets/img/tasse-de-cafe-couple-chaude.svg'); 
+}
+.fortuneItem4 {
+  background-image: url('./assets/img/magiclamp.svg'); 
+}
+.dailyHoroscopeLower{
+  min-height: 100px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    overflow-y: auto; 
+    background-image: url('./assets/img/space.svg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    position: relative;
+    margin-bottom: 25px;
+}
+.motivation {
+  color:antiquewhite;
+  position: absolute;
+  top: 68px;
+}
+.discoverFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* background-color: gainsboro; */
+  padding: 15px;
+}
+.iconUser, .inbox, .homepage {
+  color: dimgray;
+ 
+}
+}
