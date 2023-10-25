@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
-import Discover from './Discover';
-import Inbox from './Inbox';
+import Discover from './components/Discover';
+import Inbox from './components/Inbox';
 
 
 const router = createBrowserRouter(
